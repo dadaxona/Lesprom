@@ -4,7 +4,7 @@
     
     <h1 style="text-align: center">Umumiy boshqaruv tizim</h1>
     <div class="row m-2">
-        <form action="{{ route('show2', $date->yil_id) }}" method="GET">
+        <form action="{{ route('show2', $date->oy_id) }}" method="GET">
             <input type="hidden" name="yil_id" id="" value="{{ $date->yil_id }}">
             <input type="hidden" name="oy_id" id="" value="{{ $date->oy_id }}">
             <input type="hidden" name="kun_id" id="" value="{{ $date->id }}">

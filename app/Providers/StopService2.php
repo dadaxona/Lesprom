@@ -33,7 +33,7 @@ class StopService2 extends StopService3
     
     public function index2($id)
     {
-         $dt= Carbon::now('Asia/Tashkent');
+        $dt= Carbon::now('Asia/Tashkent');
         $data1 = $dt->toDateString();
         $yuridik = $this->yuridikchiqim->where('karzsumma', '>', 0)->where('sroc', '<=', $data1)->first();
         $jismoniy = $this->chiqim->where('karzsumma', '>', 0)->where('sroc', '<=', $data1)->first();

@@ -26,7 +26,7 @@ class CreateKunlikchesTable extends Migration
             $table->integer('bux')->nullable();
             $table->integer('korinmi')->nullable();
             $table->integer('tutilmagan')->nullable();
-            $table->integer('sabab')->nullable();
+            $table->string('sabab')->nullable();
             $table->date('data')->nullable();
             $table->integer('jamisumma')->nullable();
             $table->timestamps();
